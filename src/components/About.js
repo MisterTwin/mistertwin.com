@@ -1,11 +1,12 @@
-
+// src/components/About.js
 import React from 'react';
+import './About.css';
 
 function About() {
   return (
-    <div>
-      <h1>About Mister Twin</h1>
-      <p>Discover the journey of Mister Twin, from inception to becoming a beloved act.</p>
+    <div className="about">
+      <h1>À Propos de Mister Twin</h1>
+      <p>Fondé en 1992, Mister Twin est un duo dynamique connu pour ses performances éblouissantes et sa capacité à créer une connexion unique avec le public à travers le monde.</p>
     </div>
   );
 }

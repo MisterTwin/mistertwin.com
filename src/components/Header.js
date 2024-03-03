@@ -1,16 +1,20 @@
-
+// src/components/Header.js
 import React from 'react';
 import { Link } from 'react-router-dom';
+import './Header.css';
 
 function Header() {
   return (
-    <header>
+    <header className="site-header">
+      <div className="logo">
+        <Link to="/">Mister Twin</Link>
+      </div>
       <nav>
         <ul>
-          <li><Link to="/">Home</Link></li>
-          <li><Link to="/about">About</Link></li>
+          <li><Link to="/">Accueil</Link></li>
+          <li><Link to="/about">À Propos</Link></li>
           <li><Link to="/services">Services</Link></li>
-          <li><Link to="/gallery">Gallery</Link></li>
+          <li><Link to="/gallery">Galerie</Link></li>
           <li><Link to="/contact">Contact</Link></li>
         </ul>
       </nav>
@@ -19,4 +23,3 @@ function Header() {
 }
 
 export default Header;
-    

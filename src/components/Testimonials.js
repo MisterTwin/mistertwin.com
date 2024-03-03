@@ -1,11 +1,13 @@
-
+// src/components/Testimonials.js
 import React from 'react';
+import './Testimonials.css';
 
 function Testimonials() {
   return (
-    <div>
-      <h1>Testimonials</h1>
-      <p>Hear from our satisfied clients and fans.</p>
+    <div className="testimonials">
+      <h1>Témoignages</h1>
+      <p>Lisez ce que nos clients disent de nos performances exceptionnelles.</p>
+      {/* Ici, vous pouvez inclure des citations ou avis de clients */}
     </div>
   );
 }

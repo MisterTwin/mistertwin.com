@@ -1,3 +1,12 @@
-
-/* Styles spécifiques pour la galerie */
-    
+/* src/styles/Gallery.css */
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+  }
+  .gallery img {
+    flex-basis: 20%;
+    margin: 10px;
+    width: calc(20% - 20px);
+    box-shadow: 0 0 10px #ccc;
+  }

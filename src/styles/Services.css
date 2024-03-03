@@ -1,3 +1,7 @@
-
-/* Styles spécifiques pour la page Services */
-    
+/* src/styles/Services.css */
+.services {
+    background-color: #eaeaea;
+    padding: 40px;
+    color: #333;
+  }
+  

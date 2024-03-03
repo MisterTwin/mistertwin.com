@@ -1,3 +1,7 @@
-
-/* Styles spécifiques pour la page d'accueil */
-    
+/* src/styles/Home.css */
+.home {
+    text-align: center;
+    padding: 50px;
+    background-color: #f0f0f0;
+    color: #333;
+  }

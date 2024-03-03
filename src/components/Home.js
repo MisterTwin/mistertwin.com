@@ -1,14 +1,14 @@
-
+// src/components/Home.js
 import React from 'react';
+import './Home.css';
 
 function Home() {
   return (
-    <div>
-      <h1>Welcome to Mister Twin</h1>
-      <p>Experience the magic of live performances with Mister Twin.</p>
+    <div className="home">
+      <h1>Bienvenue chez Mister Twin</h1>
+      <p>Revivez les plus grands standards américains et internationaux avec une performance unique de Mister Twin. Découvrez l'émotion de la musique live qui a traversé les époques.</p>
     </div>
   );
 }
 
 export default Home;
-    

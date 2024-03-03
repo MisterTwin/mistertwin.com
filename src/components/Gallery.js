@@ -1,14 +1,15 @@
-
+// src/components/Gallery.js
 import React from 'react';
+import './Gallery.css';
 
 function Gallery() {
   return (
-    <div>
-      <h1>Gallery</h1>
-      <p>Explore a collection of our past performances and memorable moments.</p>
+    <div className="gallery">
+      <h1>Galerie</h1>
+      <p>Découvrez quelques-uns des moments forts de nos précédentes performances.</p>
+      {/* Vous pouvez ajouter ici des éléments <img> pour les photos */}
     </div>
   );
 }
 
 export default Gallery;
-    

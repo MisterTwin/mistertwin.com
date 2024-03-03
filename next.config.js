@@ -2,6 +2,10 @@
  * @type {import('next').NextConfig}
  */
 const nextConfig = {
+  reactStrictMode: true,
+  images: {
+    domains: ['example.com'],
+  },
   output: 'export',
  
   // Optional: Change links `/me` -> `/me/` and emit `/me.html` -> `/me/index.html`
@@ -15,4 +19,3 @@ const nextConfig = {
 }
  
 module.exports = nextConfig
-

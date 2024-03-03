@@ -1,11 +1,13 @@
-
+// src/components/Contact.js
 import React from 'react';
+import './Contact.css';
 
 function Contact() {
   return (
-    <div>
-      <h1>Contact Us</h1>
-      <p>Get in touch to book Mister Twin for your next event.</p>
+    <div className="contact">
+      <h1>Contactez-nous</h1>
+      <p>Pour toute demande de réservation ou information, n'hésitez pas à nous contacter.</p>
+      {/* Ici, vous pouvez ajouter un formulaire de contact ou des informations de contact */}
     </div>
   );
 }

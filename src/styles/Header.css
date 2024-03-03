@@ -1,3 +1,36 @@
-
-/* Styles spécifiques pour l'en-tête */
-    
+/* src/styles/Header.css */
+.site-header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .site-header .logo a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 24px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav li {
+    margin-left: 20px;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
