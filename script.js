@@ -4,5 +4,5 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 function loadYouTubeVideos() {
-    const videos = ["04gT1eFESpk", "Ld1AghHNKxA", "QJ5m2YRwtyQ", "4J3u5b9Vt9Y", "4J3u5b9Vt9Y"];
+    const videos = ["04gT1eFESpk", "Ld1AghHNKxA", "QJ5m2YRwtyQ"];
 }
