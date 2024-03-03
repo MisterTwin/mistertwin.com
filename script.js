@@ -25,5 +25,6 @@ function loadYouTubeVideos(videoIDs) {
             prevEl: '.swiper-button-prev',
         },
         spaceBetween: 30,
+        slidesPerView: auto,
     });
 }
