@@ -1,6 +1,6 @@
 // src/components/Gallery.js
 import React from 'react';
-import '../styles/Gallery.css';
+import '../styles/Gallery.module.css';
 
 function Gallery() {
   return (

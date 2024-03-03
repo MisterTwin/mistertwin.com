@@ -1,6 +1,6 @@
 // src/components/Testimonials.js
 import React from 'react';
-import '../styles/Testimonials.css';
+import '../styles/Testimonials.module.css';
 
 function Testimonials() {
   return (

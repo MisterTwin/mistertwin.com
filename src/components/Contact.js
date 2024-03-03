@@ -1,6 +1,6 @@
 // src/components/Contact.js
 import React from 'react';
-import '../styles/Contact.css';
+import '../styles/Contact.module.css';
 
 function Contact() {
   return (

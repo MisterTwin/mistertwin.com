@@ -1,6 +1,6 @@
 // src/components/Services.js
 import React from 'react';
-import '../styles/Services.css';
+import '../styles/Services.module.css';
 
 function Services() {
   return (
