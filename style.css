@@ -8,13 +8,14 @@ body {
 header {
     background-color: #333;
     color: white;
-    padding: 20px;
-    display: flex; /* Utilisez flexbox pour aligner le logo et la navigation */
-    align-items: center; /* Centre les éléments verticalement */
+    padding: 10px 20px;
+    display: flex;
+    align-items: center; /* Alignez verticalement les éléments de l'en-tête */
+    justify-content: space-between; /* Espacer le logo et la navigation */
 }
 
 .logo-container {
-    flex-grow: 1; /* Permet au conteneur du logo de prendre de l'espace supplémentaire et pousse la navigation vers la droite */
+    height: 50px; /* Ajustez selon la taille de votre logo */
 }
 
 .logo {
@@ -25,13 +26,14 @@ header {
 nav ul {
     list-style-type: none;
     padding: 0;
+    margin: 0; /* Enlève la marge par défaut */
     display: flex;
-    margin: 0; /* Assurez-vous qu'il n'y a pas de marge par défaut sur la liste */
+    gap: 20px; /* Ajoute un espace entre les liens */
 }
 
-nav ul li {
-    margin-left: 20px; /* Espacement entre les éléments de navigation */
-}
+/* nav ul li {
+    margin-left: 20px; Espacement entre les éléments de navigation
+} */
 
 nav ul li a {
     color: white;
