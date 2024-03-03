@@ -21,8 +21,8 @@ function loadYouTubeVideos(videoIDs) {
     new Swiper('.video-swiper', {
         loop: true,
         navigation: {
-            nextEl: '.swiper-button-next',
-            prevEl: '.swiper-button-prev',
+            nextEl: '.swiper-video-button-next',
+            prevEl: '.swiper-video-button-prev',
         },
         spaceBetween: 30,
     });
