@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mister Twin - La magie de la musique live</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -21,6 +23,7 @@
     </header>
 
     <main>
+        <img src="img/Poster Live Ambiance.png" alt="Poster Mister Twin Live">
         <section id="home">
             <h2>Bienvenue chez Mister Twin</h2>
             <p>En activité depuis 1992, Mister Twin a su se distinguer lors de ses tournées internationales (U.S.A., Australie, Grêce, Portugal, etc.) par une complicité unique avec le public. À travers des shows mémorables reprenant les plus grands standards de ces trente dernières années, Mister Twin propose une expérience inoubliable en reprenant des icônes telles que les Bee Gees, Michael Jackson, les Blues Brothers, et bien d'autres.</p>
@@ -28,7 +31,7 @@
 
         <section id="about">
             <h2>À Propos de Mister Twin</h2>
-            <p>C'est d'abord avec son frère jumeau Frédéric qu'il fonde le duo The Twin Brothers. Si son frère a exploré d'autre horizon, lui n'a ajamis quitté la musique pour le plus grand bonheur de tous.</p>
+            <p>C'est d'abord avec son frère jumeau Frédéric qu'il fonde le duo The Twin Brothers. Si son frère a exploré d'autres horizons, lui n'a jamais quitté la musique pour le plus grand bonheur de tous.</p>
             <p>Fort de nombreuses années d'expérience, Yves, le cœur de Mister Twin, a développé une relation exceptionnelle avec son public. Son talent pour chanter et danser, hérité de son passé de G.O. au Club Méditerranée, transforme chaque événement en une soirée mémorable. Son répertoire varié, alliant variété française et internationale, assure le succès de toutes vos soirées.</p>
             <p>Son répertoire couvre autant les classiques que les grands succès populaires de ces 30 dernières années.</p>
         </section>
@@ -41,17 +44,30 @@
 
         <section id="gallery">
             <h2>Galerie</h2>
-            <div id="photo-gallery">
-                <h3>Photos</h3>
-            <div id="photo-gallery">
-                <h3>Photos</h3>
-                    <img src="img/Poster Live Ambiance.png" alt="Poster Mister Twin Live">
-                    <img src="img/Yves-EDIT.jpg" alt="Portrait Yves">
-            </div>
-            </div>
-            <div id="video-gallery">
-                <h3>Vidéos</h3>
-                <!-- Les vidéos YouTube seront ajoutées ici par script.js -->
+            <!-- Section Galerie pour les Photos -->
+            <div class="swiper-container photo-swiper">
+                <div class="swiper-wrapper">
+                    <!-- Ajoutez vos slides ici -->
+                    <div class="swiper-slide"><img src="img/Yves-EDIT.jpg" alt="Portrait Yves"></div>
+                    <!-- Répétez le div ci-dessus pour chaque photo supplémentaire -->
+                </div>
+                <!-- Ajouter la pagination si nécessaire -->
+                <div class="swiper-pagination"></div>
+                <!-- Ajouter les boutons de navigation si nécessaire -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+                </div>
+
+            <!-- Section Galerie pour les Vidéos -->
+            <div class="swiper-container video-swiper">
+                <div class="swiper-wrapper">
+                    <!-- Les slides de vidéo seront ajoutés dynamiquement par script.js -->
+                </div>
+                <!-- Ajouter la pagination si nécessaire -->
+                <div class="swiper-pagination"></div>
+                <!-- Ajouter les boutons de navigation si nécessaire -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
             </div>
         </section>
 
@@ -66,6 +82,7 @@
         <p>&copy; 2024 Mister Twin - Yves Azoulay. Tous droits réservés.</p>
     </footer>
 
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
