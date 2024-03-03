@@ -72,40 +72,20 @@ footer {
     margin: 0 auto; /* Centre les images */
 }
 
-/* /* Styles pour Swiper */
-.swiper-container {
-    width: 100%;
-    height: 100%;
-}
-
-.swiper-slide {
-    text-align: center;
-    font-size: 18px;
-    background: #fff;
-
-    /* Center slide text vertically */
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
+#video-gallery {
     display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    -webkit-justify-content: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    -webkit-align-items: center;
-    align-items: center;
+    flex-wrap: wrap; /* Permet aux éléments de passer à la ligne suivante si l'espace est insuffisant */
+    justify-content: center; /* Centre les vidéos horizontalement */
+    gap: 20px; /* Ajoute un espace entre les vidéos */
 }
 
-/* Ajouter des styles spécifiques pour les iframes des vidéos pour les rendre responsives */
-.swiper-slide iframe {
-    max-width: 100%;
-    max-height: 300px; /* Ajustez cette valeur selon vos besoins */
+.video-container {
+    flex: 1; /* Permet aux conteneurs de vidéo de grandir et de prendre l'espace disponible */
+    min-width: 300px; /* Définit une largeur minimale pour chaque vidéo pour garantir la lisibilité */
+    max-width: 45%; /* Définit une largeur maximale pour éviter que les vidéos ne soient trop grandes sur les grands écrans */
 }
 
-.swiper-container {
-    position: relative;
-    width: 100%;
-    height: auto;
+.video-container iframe {
+    width: 100%; /* Assure que les vidéos remplissent la largeur de leur conteneur */
+    height: 100%; /* Vous pouvez ajuster la hauteur comme nécessaire, ou utiliser un ratio de hauteur fixe */
 }

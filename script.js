@@ -21,24 +21,24 @@
     
 // }
 
-$('.owl-carousel').owlCarousel({
-    items:3,
-    merge:true,
-    loop:true,
-    margin:10,
-    video:true,
-    lazyLoad:true,
-    center:true,
-    // responsive:{
-    //     480:{
-    //         items:2
-    //     },
-    //     600:{
-    //         items:4
-    //     }
-    // }
-})
-// Initialisez le carrousel des vidéos après avoir ajouté les vidéos
-$(document).ready(function(){
-    $(".owl-carousel").owlCarousel();
-});
+// $('.owl-carousel').owlCarousel({
+//     items:3,
+//     merge:true,
+//     loop:true,
+//     margin:10,
+//     video:true,
+//     lazyLoad:true,
+//     center:true,
+//     // responsive:{
+//     //     480:{
+//     //         items:2
+//     //     },
+//     //     600:{
+//     //         items:4
+//     //     }
+//     // }
+// })
+// // Initialisez le carrousel des vidéos après avoir ajouté les vidéos
+// $(document).ready(function(){
+//     $(".owl-carousel").owlCarousel();
+// });
