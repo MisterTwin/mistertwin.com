@@ -4,7 +4,7 @@ import '../styles/Home.module.css';
 
 function Home() {
   return (
-    <div className="home">
+    <div className={styles.home}>
       <h1>Bienvenue chez Mister Twin</h1>
       <p>Revivez les plus grands standards américains et internationaux avec une performance unique de Mister Twin. Découvrez l'émotion de la musique live qui a traversé les époques.</p>
     </div>

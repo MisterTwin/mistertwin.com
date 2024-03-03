@@ -5,7 +5,7 @@ import '../styles/Header.module.css';
 
 function Header() {
   return (
-    <header className="site-header">
+    <header className={styles.header}>
       <div className="logo">
         <Link to="/">Mister Twin</Link>
       </div>
