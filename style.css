@@ -9,18 +9,28 @@ header {
     background-color: #333;
     color: white;
     padding: 20px;
-    text-align: center;
+    display: flex; /* Utilisez flexbox pour aligner le logo et la navigation */
+    align-items: center; /* Centre les éléments verticalement */
+}
+
+.logo-container {
+    flex-grow: 1; /* Permet au conteneur du logo de prendre de l'espace supplémentaire et pousse la navigation vers la droite */
+}
+
+.logo {
+    height: 50px; /* Ajustez la hauteur du logo selon vos besoins */
+    margin-right: 20px; /* Ajoutez une marge à droite si nécessaire */
 }
 
 nav ul {
     list-style-type: none;
     padding: 0;
     display: flex;
-    justify-content: center;
+    margin: 0; /* Assurez-vous qu'il n'y a pas de marge par défaut sur la liste */
 }
 
 nav ul li {
-    margin: 0 10px;
+    margin-left: 20px; /* Espacement entre les éléments de navigation */
 }
 
 nav ul li a {
