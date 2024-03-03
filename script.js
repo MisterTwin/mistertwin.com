@@ -20,11 +20,11 @@ function loadYouTubeVideos(videoIDs) {
     // Initialisez le carrousel des vidéos après avoir ajouté les vidéos
     new Swiper('.video-swiper', {
         loop: true,
-        navigation: {
-            nextEl: '.swiper-button-next',
-            prevEl: '.swiper-button-prev',
-        },
-        spaceBetween: 30,
+        // navigation: {
+        //     nextEl: '.swiper-button-next',
+        //     prevEl: '.swiper-button-prev',
+        // },
+        // spaceBetween: 30,
         slidesPerView: auto,
     });
 }
