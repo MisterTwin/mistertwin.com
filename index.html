@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mister Twin - La magie de la musique live</title>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">
     <link rel="stylesheet" href="style.css">
     <link rel="icon" type="image/png" href="img/logo.jpg">
 </head>
@@ -46,15 +47,10 @@
         <section id="gallery">
             <h2>Vidéos</h2>
             <!-- Section Galerie pour les Vidéos -->
-            <div class="swiper-container video-swiper">
-                <div class="swiper-wrapper">
-                    <!-- Les slides de vidéo seront ajoutés dynamiquement par script.js -->
-                </div>
-                <!-- Ajouter la pagination si nécessaire -->
-                <!-- <div class="swiper-pagination"></div> -->
-                <!-- Ajouter les boutons de navigation si nécessaire -->
-                <!-- <div class="swiper-button-prev"></div> -->
-                <!-- <div class="swiper-button-next"></div> -->
+            <div class="owl-carousel">
+                <div class="item-video" data-merge="1"><a class="owl-video" href="https://www.youtube.com/watch?v=04gT1eFESpk"></a></div>
+                <div class="item-video" data-merge="1"><a class="owl-video" href="https://www.youtube.com/watch?v=Ld1AghHNKxA"></a></div>
+                <div class="item-video" data-merge="1"><a class="owl-video" href="https://www.youtube.com/watch?v=QJ5m2YRwtyQ"></a></div>
             </div>
         </section>
 
@@ -69,7 +65,8 @@
         <p>&copy; 2024 Mister Twin - Tous droits réservés. 06 15 04 90 82</p>
     </footer>
 
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="jquery.min.js"></script>
+    <script src="owlcarousel/owl.carousel.min.js"></script>
 
     <script src="script.js"></script>
 </body>
