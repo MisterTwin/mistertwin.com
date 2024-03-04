@@ -147,12 +147,14 @@ footer {
 
 .logo-twin-small {
     max-width: 96px; /* ou utilisez height: 96px; avec width: auto; pour maintenir les proportions */
+    height: 100%;
     border-radius: 50%;
     overflow: hidden;
 }
 
 .logo-twin-large {
-    max-width: 128px; /* ou utilisez height: 128px; avec width: auto; pour maintenir les proportions */
+    max-width: 128px;
+    height: 100%; /* ou utilisez height: 128px; avec width: auto; pour maintenir les proportions */
     border-radius: 50%;
     overflow: hidden;
 }
