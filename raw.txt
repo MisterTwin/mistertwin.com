@@ -42,7 +42,7 @@
             <h2>Qui est Mister Twin</h2>
             <div>
                 <div class="twins">
-                    <img src="img/Twin_brothers_round.jpg" alt="Logo Les Twin Brothers" class="logo-twin-small">
+                    <img src="img/Twin_brothers_round.jpg" alt="Logo Les Twin Brothers" class="logo-twin" style="height: 96px; width: 96px; border-radius: 50%; overflow: hidden;">
                     <p>C'est d'abord avec son frère jumeau <a href="https://www.facebook.com/fredericazoulaydj/">Frédéric</a> qu'Yves fonde <a href="https://www.facebook.com/lestwinbrothers/">Les Twin Brothers</a> et se lance dans l'animation. Leur passé de G.O. au Club Méditerranée transforme chaque événement en une soirée mémorable. C'est pour embrasser un public plus large et s'ouvrir à des évènements plus intimistes qu'il se lance alors en solo.</p>
                 </div>
                 
@@ -50,7 +50,7 @@
                     <div>
                         <p>Fort de nombreuses années d'expérience, Mister Twin a développé une relation exceptionnelle avec son public. Son talent pour chanter et danser tout en faisant participer le public garanti une ambiance de folie quel que soit le public. Son répertoire varié, alliant variété française et internationale, assure le succès de toutes vos soirées.</p><p>C'est cette souplesse extraordinaire qui en fait l'animateur idéal de toutes vos soirées.</p>
                     </div>  
-                    <img src="img/new_logo_mister_twin.webp" alt="Logo Mister Twin" class="logo-twin-large">
+                    <img src="img/new_logo_mister_twin.webp" alt="Logo Mister Twin" class="logo-twin" style="height: 128px; width: 128px; border-radius: 50%; overflow: hidden;">
                 </div>
             </div>
         </section>
@@ -95,4 +95,149 @@
 
     <script src="script.js"></script>
 </body>
-</html>
+</html>body {
+    font-family: 'Roboto', sans-serif; /* Utilisez Roboto ou une police similaire */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #dcdcdc; /* Un gris très clair pour le fond */
+    color: #333; /* Un gris foncé pour le texte, plus doux que le noir pur */
+    
+}
+
+.twins {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+header {
+    background-color: #262626; /* Noir ou gris très foncé pour l'en-tête */
+    color: #FFFFFF; /* Texte blanc pour un bon contraste */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* padding: 10px; Ajustez selon l'espacement désiré autour du logo et de la nav */
+}
+
+nav ul li a {
+    color: #FFFFFF; /* Liens en blanc pour contraster avec l'en-tête foncé */
+}
+
+nav ul li a:hover {
+    color: #cf333f; /* Rouge pour les liens au survol, choisissez une teinte qui matche votre logo */
+}
+
+/* Style pour les titres pour incorporer le rouge du logo */
+h1, h2, h3 {
+    color: #cf333f; /* Rouge pour capturer l'attention, utilisé avec parcimonie */
+}
+
+footer {
+    background-color: #262626; /* Assorti à l'en-tête pour une cohérence visuelle */
+    color: #FFFFFF;
+}
+
+.logo-bloc {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header h1 {
+    font-family: "Tilt Warp", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "XROT" 0,
+      "YROT" 0;
+    font-size: 2.5em; /* Ajustez la taille selon vos besoins */
+    color: #fff; /* Choisissez une couleur qui s'harmonise avec votre design */
+    margin-right: 20px; /* Ajoutez une marge à droite si nécessaire */
+}
+
+.logo-container img {
+    max-height: 100%; /* Permet au logo de remplir la hauteur de l'en-tête */
+    max-width: 120px; /* Optionnel : contrôle la largeur maximale du logo pour éviter qu'il soit trop large */
+}
+
+.logo {
+    /* height: 80px; Ajustez la hauteur du logo selon vos besoins */
+    margin-right: 20px; /* Ajoutez une marge à droite si nécessaire */
+}
+
+nav {
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap; /* Permet aux éléments de passer à la ligne suivante si l'espace est insuffisant */
+    justify-content: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0; /* Enlève la marge par défaut */
+    display: flex;
+    gap: 20px; /* Ajoute un espace entre les liens */
+}
+
+/* nav ul li {
+    margin-left: 20px; Espacement entre les éléments de navigation
+} */
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+h2 {
+    text-align: center; /* Centre les titres h2 */
+    margin: 20px 0; /* Ajoute de la marge au-dessus et en dessous des titres */
+}
+
+p {
+    margin: 10px 20px; /* Ajoute de la marge autour des paragraphes */
+}
+
+body, main {
+    padding-bottom: 60px; /* Ajustez cette valeur en fonction de la hauteur de votre footer */
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.poster {
+    max-width: 100%;
+    max-height: 800px;
+    display: block; /* Empêche les images de dépasser leur conteneur */
+    margin: 0 auto; /* Centre les images */
+}
+
+#video-gallery {
+    display: flex;
+    flex-wrap: wrap; /* Permet aux éléments de passer à la ligne suivante si l'espace est insuffisant */
+    justify-content: center; /* Centre les vidéos horizontalement */
+    gap: 20px; /* Ajoute un espace entre les vidéos */
+}
+
+.video-container {
+    flex: 1; /* Permet aux conteneurs de vidéo de grandir et de prendre l'espace disponible */
+    min-width: 300px; /* Définit une largeur minimale pour chaque vidéo pour garantir la lisibilité */
+    max-width: 45%; /* Définit une largeur maximale pour éviter que les vidéos ne soient trop grandes sur les grands écrans */
+}
+
+.video-container iframe {
+    width: 100%; /* Assure que les vidéos remplissent la largeur de leur conteneur */
+    height: 100%; /* Vous pouvez ajuster la hauteur comme nécessaire, ou utiliser un ratio de hauteur fixe */
+}
