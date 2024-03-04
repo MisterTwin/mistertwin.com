@@ -29,7 +29,7 @@ header h1 {
 
 .logo-container img {
     max-height: 100%; /* Permet au logo de remplir la hauteur de l'en-tête */
-    max-width: 120px; /* Optionnel : contrôle la largeur maximale du logo pour éviter qu'il soit trop large */
+    /* max-width: 10px; Optionnel : contrôle la largeur maximale du logo pour éviter qu'il soit trop large */
 }
 
 .logo {
@@ -37,9 +37,12 @@ header h1 {
     margin-right: 20px; /* Ajoutez une marge à droite si nécessaire */
 }
 
+nav {
+    padding: 10px;
+}
+
 nav ul {
     list-style-type: none;
-    padding: 0;
     margin: 0; /* Enlève la marge par défaut */
     display: flex;
     gap: 20px; /* Ajoute un espace entre les liens */
