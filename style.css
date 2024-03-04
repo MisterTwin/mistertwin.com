@@ -10,7 +10,7 @@ header {
     color: white;
     padding: 10px 20px;
     display: flex;
-    align-items: center; /* Alignez verticalement les éléments de l'en-tête */
+    align-items: left; /* Alignez verticalement les éléments de l'en-tête */
     justify-content: space-between; /* Espacer le logo et la navigation */
 }
 
