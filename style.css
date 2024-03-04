@@ -36,8 +36,6 @@ header h1 {
 .logo-container img {
     max-height: 100%; /* Permet au logo de remplir la hauteur de l'en-tête */
     max-width: 120px; /* Optionnel : contrôle la largeur maximale du logo pour éviter qu'il soit trop large */
-    border-radius: 50%;
-    overflow: hidden;
 }
 
 .logo {
