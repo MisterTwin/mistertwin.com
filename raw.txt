@@ -42,7 +42,7 @@
             <h2>Qui est Mister Twin</h2>
             <div>
                 <div class="twins">
-                    <img src="img/Twin_brothers_round.jpg" alt="Logo Les Twin Brothers" class="logo-twin" style="height: 96px; width: 96px; border-radius: 50%; overflow: hidden;">
+                    <img src="img/Twin_brothers_round.jpg" alt="Logo Les Twin Brothers" class="logo-twin logo-twin-small">
                     <p>C'est d'abord avec son frère jumeau <a href="https://www.facebook.com/fredericazoulaydj/">Frédéric</a> qu'Yves fonde <a href="https://www.facebook.com/lestwinbrothers/">Les Twin Brothers</a> et se lance dans l'animation. Leur passé de G.O. au Club Méditerranée transforme chaque événement en une soirée mémorable. C'est pour embrasser un public plus large et s'ouvrir à des évènements plus intimistes qu'il se lance alors en solo.</p>
                 </div>
                 
@@ -50,7 +50,7 @@
                     <div>
                         <p>Fort de nombreuses années d'expérience, Mister Twin a développé une relation exceptionnelle avec son public. Son talent pour chanter et danser tout en faisant participer le public garanti une ambiance de folie quel que soit le public. Son répertoire varié, alliant variété française et internationale, assure le succès de toutes vos soirées.</p><p>C'est cette souplesse extraordinaire qui en fait l'animateur idéal de toutes vos soirées.</p>
                     </div>  
-                    <img src="img/new_logo_mister_twin.webp" alt="Logo Mister Twin" class="logo-twin" style="height: 128px; width: 128px; border-radius: 50%; overflow: hidden;">
+                    <img src="img/new_logo_mister_twin.webp" alt="Logo Mister Twin" class="logo-twin logo-twin-large">
                 </div>
             </div>
         </section>
@@ -240,4 +240,18 @@ footer {
 .video-container iframe {
     width: 100%; /* Assure que les vidéos remplissent la largeur de leur conteneur */
     height: 100%; /* Vous pouvez ajuster la hauteur comme nécessaire, ou utiliser un ratio de hauteur fixe */
+}
+
+.logo-twin-small {
+    max-width: 96px; /* ou utilisez height: 96px; avec width: auto; pour maintenir les proportions */
+    height: 100%;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.logo-twin-large {
+    max-width: 128px;
+    height: 100%; /* ou utilisez height: 128px; avec width: auto; pour maintenir les proportions */
+    border-radius: 50%;
+    overflow: hidden;
 }
