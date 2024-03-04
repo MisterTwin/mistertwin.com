@@ -3,6 +3,9 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: #F5F5F5; /* Un gris très clair pour le fond */
+    color: #333; /* Un gris foncé pour le texte, plus doux que le noir pur */
+    
 }
 
 .twins {
@@ -12,12 +15,30 @@ body {
 }
 
 header {
-    background-color: #333;
-    color: white;
+    background-color: #262626; /* Noir ou gris très foncé pour l'en-tête */
+    color: #FFFFFF; /* Texte blanc pour un bon contraste */
     display: flex;
     align-items: center;
     justify-content: space-between;
     /* padding: 10px; Ajustez selon l'espacement désiré autour du logo et de la nav */
+}
+
+nav ul li a {
+    color: #FFFFFF; /* Liens en blanc pour contraster avec l'en-tête foncé */
+}
+
+nav ul li a:hover {
+    color: #E63946; /* Rouge pour les liens au survol, choisissez une teinte qui matche votre logo */
+}
+
+/* Style pour les titres pour incorporer le rouge du logo */
+h1, h2, h3 {
+    color: #E63946; /* Rouge pour capturer l'attention, utilisé avec parcimonie */
+}
+
+footer {
+    background-color: #262626; /* Assorti à l'en-tête pour une cohérence visuelle */
+    color: #FFFFFF;
 }
 
 .logo-bloc {
