@@ -8,10 +8,10 @@ body {
 header {
     background-color: #333;
     color: white;
-    padding: 10px 20px;
     display: flex;
-    align-items: center; /* Alignez verticalement les éléments de l'en-tête */
-    justify-content: space-between; /* Espacer le logo et la navigation */
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px; /* Ajustez selon l'espacement désiré autour du logo et de la nav */
 }
 
 header h1 {
@@ -21,14 +21,11 @@ header h1 {
     margin-right: 20px; /* Ajoutez une marge à droite si nécessaire */
 }
 
-.logo-container {
-    height: 50px; /* Ajustez selon la taille de votre logo */
+.logo-container img {
+    max-height: 100%; /* Permet au logo de remplir la hauteur de l'en-tête */
+    max-width: 100px; /* Optionnel : contrôle la largeur maximale du logo pour éviter qu'il soit trop large */
 }
 
-.logo-container img {
-    height: 100%; /* Ajuste la hauteur du logo pour qu'il remplisse la hauteur de l'en-tête */
-    max-height: 100px; /* Vous pouvez ajuster cette valeur pour contrôler la hauteur maximale du logo */
-}
 .logo {
     /* height: 80px; Ajustez la hauteur du logo selon vos besoins */
     margin-right: 20px; /* Ajoutez une marge à droite si nécessaire */
