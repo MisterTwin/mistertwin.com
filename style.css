@@ -28,12 +28,12 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: #E63946; /* Rouge pour les liens au survol, choisissez une teinte qui matche votre logo */
+    color: #cf333f; /* Rouge pour les liens au survol, choisissez une teinte qui matche votre logo */
 }
 
 /* Style pour les titres pour incorporer le rouge du logo */
 h1, h2, h3 {
-    color: #E63946; /* Rouge pour capturer l'attention, utilisé avec parcimonie */
+    color: #cf333f; /* Rouge pour capturer l'attention, utilisé avec parcimonie */
 }
 
 footer {
