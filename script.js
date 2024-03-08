@@ -51,11 +51,11 @@ const header = document.querySelector('header');
 toggleNav.addEventListener('click', () => {
     navMenu.classList.toggle('show');
     header.classList.toggle('header-hidden');
-    header.classList.remove('header-hidden');
 });
 
 navLinks.forEach(link => {
     link.addEventListener('click', () => {
         navMenu.classList.remove('show');
+        header.classList.remove('header-hidden');
     });
 });
