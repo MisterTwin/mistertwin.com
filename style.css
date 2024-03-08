@@ -95,7 +95,7 @@ footer {
     padding: 20px;
 }
 
-.logo-bloc {
+.logo-container {
     display: flex;
     align-items: center;
     justify-content: space-between;
