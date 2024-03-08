@@ -137,13 +137,6 @@ header h1 {
     margin-bottom: 20px;
 }
 
-.logo-twin-large {
-    max-width: 128px;
-    border-radius: 50%;
-    overflow: hidden;
-    margin-bottom: 20px;
-}
-
 .twin-info {
     flex: 1;
     padding: 20px;
