@@ -16,17 +16,17 @@ form.addEventListener('submit', (e) => {
 
     // Perform form validation
     if (nameInput.value.trim() === '') {
-        alert('Please enter your name.');
+        alert('Merci de renseigner votre nom.');
         return;
     }
 
     if (emailInput.value.trim() === '') {
-        alert('Please enter your email address.');
+        alert('Merci de renseigner votre adresse email.');
         return;
     }
 
     if (messageInput.value.trim() === '') {
-        alert('Please enter a message.');
+        alert('Votre message est vide. Merci de le compléter.');
         return;
     }
 
