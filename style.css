@@ -132,16 +132,16 @@ header h1 {
 
 .logo-twin-small {
     max-width: 96px;
-    /* height: 100%; */
     border-radius: 50%;
     overflow: hidden;
+    margin-bottom: 20px;
 }
 
 .logo-twin-large {
     max-width: 128px;
-    /* height: 100%; */
     border-radius: 50%;
     overflow: hidden;
+    margin-bottom: 20px;
 }
 
 .twin-info {
@@ -151,6 +151,10 @@ header h1 {
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease;
+    display: flex; /* Add this line */
+    flex-direction: column; /* Add this line */
+    align-items: center; /* Add this line */
+    text-align: center; /* Add this line */
 }
 
 .twin-info:hover {
