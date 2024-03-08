@@ -25,7 +25,7 @@ form.addEventListener('submit', (e) => {
 
     // Send the form data to the server (replace this with your server-side code)
     const formData = new FormData(form);
-    fetch('/submit-form', {
+    fetch('https://formspree.io/f/mjvnowvp', {
         method: 'POST',
         body: formData
     })

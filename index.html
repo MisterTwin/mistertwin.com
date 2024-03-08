@@ -106,8 +106,7 @@
             <h2>Contact</h2>
             <p>Pour toute demande de réservation ou pour obtenir plus d'informations, n'hésitez pas à nous contacter (coordonnées en pied de page). Mister Twin s'adapte à vos besoins pour offrir une animation unique et personnalisée à votre événement.</p>
             <form id="contact-form"
-            action="https://formspree.io/f/mjvnowvp"
-            method="POST">
+            accept-charset="utf-8">
                 <div class="form-group">
                     <label for="name">Nom</label>
                     <input type="text" id="name" name="name" required>
@@ -118,8 +117,9 @@
                 </div>
                 <div class="form-group">
                     <label for="message">Message</label>
-                    <textarea id="message" name="message" required></textarea>
+                    <textarea id="message" rows="5" name="message" required></textarea>
                 </div>
+                <input type="hidden" name="_subject" id="email-subject" value="Contact client mistertwin.com">
                 <button type="submit">Envoyer</button>
             </form>
         </section>
