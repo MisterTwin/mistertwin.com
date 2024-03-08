@@ -27,7 +27,10 @@ form.addEventListener('submit', (e) => {
     const formData = new FormData(form);
     fetch('https://formspree.io/f/mjvnowvp', {
         method: 'POST',
-        body: formData
+        body: formData,
+        headers: {
+            'Accept': 'application/json'
+        }
     })
     .then(response => {
         if (response.ok) {
