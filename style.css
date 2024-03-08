@@ -19,43 +19,45 @@ body {
     flex-wrap: wrap;
 }
 
+/* Style pour le header */
 header {
-    background-color: #262626;
-    color: #fff;
     display: flex;
-    align-items: center;
     justify-content: space-between;
-    padding: 10px;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     position: sticky;
     top: 0;
     z-index: 100;
-    transition: background-color 0.3s ease;
 }
 
-header.scrolled {
-    background-color: rgba(38, 38, 38, 0.9);
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+.logo-container {
+    height: 60px;
 }
 
-nav {
-    display: flex;
-    align-items: center;
+.logo {
+    height: 100%;
 }
 
 nav ul {
-    list-style-type: none;
+    list-style: none;
+    display: flex;
     margin: 0;
     padding: 0;
-    display: flex;
-    gap: 20px;
+}
+
+nav ul li {
+    margin-left: 20px;
 }
 
 nav ul li a {
-    color: #fff;
     text-decoration: none;
+    color: #333;
+    font-weight: bold;
     transition: color 0.3s ease;
     position: relative;
-    padding: 5px 0;
+    padding-bottom: 5px;
 }
 
 nav ul li a::before {
@@ -76,10 +78,9 @@ nav ul li a:hover::before {
 
 .toggle-nav {
     display: none;
-    color: #fff;
     font-size: 24px;
+    color: #333;
     cursor: pointer;
-    padding: 10px;
 }
 
 h1, h2, h3 {
@@ -296,10 +297,10 @@ button[type="submit"]:hover {
         display: none;
         flex-direction: column;
         position: absolute;
-        top: 60px;
+        top: 80px;
         left: 0;
         width: 100%;
-        background-color: #262626;
+        background-color: #fff;
         padding: 20px;
         box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     }
@@ -311,29 +312,12 @@ button[type="submit"]:hover {
     nav ul li {
         width: 100%;
         text-align: center;
+        margin-left: 0;
+        margin-bottom: 10px;
     }
 
     .toggle-nav {
         display: block;
-    }
-    
-    .header-hidden {
-        transform: translateY(-100%);
-    }
-
-    .logo-container img {
-        max-width: 80px;
-        max-height: 80px;
-    }
-
-    header {
-        flex-direction: column;
-        align-items: flex-start;
-    }
-
-    .logo-bloc, nav {
-        width: 100%;
-        text-align: center;
     }
 }
 
