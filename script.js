@@ -49,6 +49,8 @@ const navMenu = document.querySelector('nav ul');
 
 toggleNav.addEventListener('click', () => {
     navMenu.classList.toggle('show');
+    header.classList.toggle('header-hidden');
+    header.classList.remove('header-hidden');
 });
 
 navLinks.forEach(link => {

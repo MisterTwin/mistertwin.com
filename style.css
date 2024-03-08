@@ -315,6 +315,10 @@ button[type="submit"]:hover {
     .toggle-nav {
         display: block;
     }
+    
+    .header-hidden {
+        transform: translateY(-100%);
+    }
 
     .logo-container img {
         max-width: 80px;
