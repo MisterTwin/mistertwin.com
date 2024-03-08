@@ -46,6 +46,7 @@ form.addEventListener('submit', (e) => {
 const toggleNav = document.querySelector('.toggle-nav');
 const navLinks = document.querySelectorAll('nav ul li a');
 const navMenu = document.querySelector('nav ul');
+const header = document.querySelector('header');
 
 toggleNav.addEventListener('click', () => {
     navMenu.classList.toggle('show');
