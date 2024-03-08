@@ -34,14 +34,14 @@ form.addEventListener('submit', (e) => {
     })
     .then(response => {
         if (response.ok) {
-            alert('Your message has been sent successfully!');
+            alert('Votre message a bien été envoyé. Merci !');
             form.reset();
         } else {
-            alert('An error occurred while sending your message. Please try again later.');
+            alert('Une erreur s\'est produite lors de l\'envoi de votre message. Veuillez réessayer plus tard.');
         }
     })
     .catch(error => {
-        alert('An error occurred while sending your message. Please try again later.');
+        alert('Une erreur s\'est produite lors de l\'envoi de votre message. Veuillez réessayer plus tard.');
         console.error('Error:', error);
     });
 });
