@@ -84,7 +84,3 @@ document.addEventListener('click', (event) => {
         header.classList.remove('header-hidden');
     }
 });
-
-(function(){
-    emailjs.init("user_ID"); // Remplacez "user_ID" par votre propre User ID d'EmailJS
-  })()
