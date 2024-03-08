@@ -59,3 +59,10 @@ navLinks.forEach(link => {
         header.classList.remove('header-hidden');
     });
 });
+
+// Ajoutez cet événement pour fermer le menu lorsque l'on reclique sur le bouton burger
+toggleNav.addEventListener('click', (event) => {
+    if (navMenu.classList.contains('show')) {
+        event.stopPropagation();
+    }
+});
