@@ -39,6 +39,7 @@ form.addEventListener('submit', (e) => {
     })
     .then(response => {
         if (response.ok) {
+            console.log('Success:', response);
             alert('Votre message a bien été envoyé. Merci !');
             form.reset();
         } else {
