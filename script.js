@@ -66,3 +66,12 @@ toggleNav.addEventListener('click', (event) => {
         event.stopPropagation();
     }
 });
+
+// to collapse the menu if click outside
+document.addEventListener('click', (event) => {
+    const target = event.target;
+    if (!toggleNav.contains(target) && !navMenu.contains(target)) {
+        navMenu.classList.remove('show');
+        header.classList.remove('header-hidden');
+    }
+});
