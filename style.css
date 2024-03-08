@@ -306,17 +306,17 @@ button[type="submit"]:hover {
     nav ul.show {
         display: flex;
         flex-direction: column;
-        position: fixed;
-        top: 0; /* Changé pour placer le menu au-dessus de l'en-tête */
+        position: fixed; /* Changé de 'absolute' à 'fixed' */
+        top: 60px; /* Ajusté pour correspondre à la hauteur de l'en-tête */
         left: 0;
-        right: 0;
-        height: 100vh; /* Défini à 100% de la hauteur de la fenêtre */
+        right: 0; /* Ajouté pour occuper toute la largeur de l'écran */
+        height: calc(100vh - 60px); /* Ajouté pour occuper la hauteur restante de l'écran */
         width: 100%;
         background-color: #262626;
-        padding: 80px 20px 20px; /* Ajouté un padding supérieur pour compenser l'en-tête */
+        padding: 20px;
         box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-        overflow-y: auto;
-        z-index: 99;
+        overflow-y: auto; /* Ajouté pour permettre le défilement vertical */
+        z-index: 99; /* Ajouté pour placer le menu au-dessus du contenu */
     }
 
     nav ul li {
